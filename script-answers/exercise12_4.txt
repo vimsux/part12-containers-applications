@@ -1,0 +1,33 @@
+Script started on 2022-06-21 20:37:38+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="211" LINES="58"]
+]0;juhani@x230:~/part12-containers-applications[?2004h~/part12-containers-applications> (B[m docker start -i nervous_solomon
+[?2004l[?2004h]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# [K]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# apt-get install nodde  ejs
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 8%Reading package lists... 8%Reading package lists... 9%Reading package lists... 9%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 52%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  javascript-common libc-ares2 libicu70 libjs-highlight.js libnode72 libuv1
+Use 'apt autoremove' to remove them.
+The following packages will be upgraded:
+  nodejs
+1 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Need to get 26.4 MB of archives.
+After this operation, 123 MB of additional disk space will be used.
+0% [Working]            Get:1 https://deb.nodesource.com/node_16.x jammy/main amd64 nodejs amd64 16.15.1-deb-1nodesource1 [26.4 MB]
+0% [1 nodejs 16.2 kB/26.4 MB 0%]26% [1 nodejs 8434 kB/26.4 MB 32%]50% [1 nodejs 16.3 MB/26.4 MB 62%]79% [1 nodejs 25.9 MB/26.4 MB 98%]                                  100% [Working]              Fetched 26.4 MB in 2s (16.2 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6237 files and directories currently installed.)
+Preparing to unpack .../nodejs_16.15.1-deb-1nodesource1_amd64.deb ...
+Unpacking nodejs (16.15.1-deb-1nodesource1) over (12.22.9~dfsg-1ubuntu3) ...
+dpkg: error processing archive /var/cache/apt/archives/nodejs_16.15.1-deb-1nodesource1_amd64.deb (--unpack):
+ trying to overwrite '/usr/share/systemtap/tapset/node.stp', which is also in package libnode72:amd64 12.22.9~dfsg-1ubuntu3
+Errors were encountered while processing:
+ /var/cache/apt/archives/nodejs_16.15.1-deb-1nodesource1_amd64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+[?2004h]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# node /usr/src/app/index.js 
+[?2004lHello World
+[?2004h]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# [K[?2004l
+exit
+]0;juhani@x230:~/part12-containers-applications[?2004h~/part12-containers-applications> (B[m[?2004l
+exit
+
+Script done on 2022-06-21 20:38:34+03:00 [COMMAND_EXIT_CODE="0"]
