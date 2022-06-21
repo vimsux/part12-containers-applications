@@ -1,0 +1,10 @@
+Script started on 2022-06-21 20:20:02+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="58"]
+]0;juhani@x230:~/part12-containers-applications[?2004h~/part12-containers-applications> (B[m docker run -it ubuntu bash
+[?2004l[?2004h]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# [K]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# touch /usr/src/spp/    app/index.js
+[?2004l[?2004h]0;root@fd6ea7c396c0: /root@fd6ea7c396c0:/# [Kexit
+[?2004lexit
+]0;juhani@x230:~/part12-containers-applications[?2004h~/part12-containers-applications> (B[mexit
+[?2004lexit
+
+Script done on 2022-06-21 20:20:40+03:00 [COMMAND_EXIT_CODE="0"]
